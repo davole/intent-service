@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "emitDeclarationOnly": false,
+    "esModuleInterop": false,
+    "lib": [
+      "es2017"
+    ],
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "sourceMap": true,
+    "target": "es2018",
+    "incremental": true
+  },
+  "include": [
+    "./src/**/*.ts"
+  ]
+}
